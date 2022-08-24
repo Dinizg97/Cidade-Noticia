@@ -36,7 +36,7 @@ background : url(../Imagens/fundo.png) bottom repeat-x #294c71;
    
 }
 #navegaçao-topo ul {
-    background: url(../Imagens/divisor.png) repeat-y right top;
+    /*background: url(../Imagens/divisor.png) repeat-y right top;*/
 }
 li {
     border: 0px solid greenyellow;
@@ -65,7 +65,7 @@ clear: both
 }
 #conteudo-lateral{
 width: 320px;
-border: 1px solid rgb(17, 0, 255);
+border: 0px solid rgb(17, 0, 255);
 float: left;
 margin: 10px 12px;
 background: url(../Imagens/fundo-caixa.png);
@@ -76,6 +76,30 @@ border: 1px solid rgb(17, 0, 255);
 float: left;
 margin: 10px 12px;
 background: url(../Imagens/fundo-caixa.png);
+}
+#ultima-entrevista{
+    width: 290px;
+    
+    margin: 5px 10px;
+    background-color: white;
+    color: black;
+   font-weight: bold;
+    line-height: 22px;
+    padding: 5px;
+    clear: both;
+   
+}
+.entrevistado{
+border: solid red 1px;
+margin: 1px 1px 4px 1px;
+width: 200px;
+height: auto;
+text-align: center;
+font-size: 13px;
+font-weight: bold;
+line-height: 0px;
+background-color: red;
+
 }
 #conteudo-lateraldireita{
 width: 320px;
@@ -107,9 +131,7 @@ position: absolute;
     margin: 5px 10px;
     text-align: center;
     line-height: 40px;
-   
-
-    background: #294c71;
+   background: #294c71;
 }
 .entrevista h3{
     margin: 0px;
@@ -135,4 +157,13 @@ position: absolute;
 .nomes-entrevistas ul{
     background: none;
     
+}
+.imagemdoutor{
+    margin: 3px 0px 0px 5px;
+   
+}
+p .imagemdoutor {
+line-height: 20px;
+
+
 }

@@ -1,0 +1,138 @@
+body {
+margin: 0px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+#topo{
+border: solid 0px red;
+width: 100%;
+height: 300px;
+background : url(../Imagens/fundo.png) bottom repeat-x #294c71;
+}
+
+#navegaçao-topo{
+    border: solid 0px rgb(55, 0, 255);
+    width: 40%;
+    height: 40px;
+    position: relative;
+    top: 180px;
+    left: 425px;
+    background-color: rgb(189, 23, 23);
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+  
+}
+#fonte-navegaçao-topo{
+
+
+}
+#navegaçao-topo a, ul {
+    text-decoration: none;
+    list-style: none;
+     color: white;
+   
+   
+}
+#navegaçao-topo ul {
+    background: url(../Imagens/divisor.png) repeat-y right top;
+}
+li {
+    border: 0px solid greenyellow;
+    display: inline-block;
+    position: relative;
+    bottom: 24px;
+    right: 20px;
+    padding: 2px;
+    margin: 2px;
+    
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+#container-principal{
+border: 1px solid red;
+margin: 10px auto;
+width: 55%;
+height: 1080px;
+clear: both
+
+
+}
+#conteudo-lateral{
+width: 320px;
+border: 1px solid rgb(17, 0, 255);
+float: left;
+margin: 10px 12px;
+background: url(../Imagens/fundo-caixa.png);
+}
+#conteudo-central{
+width: 320px;
+border: 1px solid rgb(17, 0, 255);
+float: left;
+margin: 10px 12px;
+background: url(../Imagens/fundo-caixa.png);
+}
+#conteudo-lateraldireita{
+width: 320px;
+border: 1px solid rgb(17, 0, 255);
+float: left;
+margin: 10px 12px;
+background: url(../Imagens/fundo-caixa.png);
+
+}
+.Imagem-topnav{
+border: 0px solid rgb(255, 255, 255);
+position: absolute;
+   left: 425px;
+   top:80px
+}
+.Imagem-direita{
+   border: 0px solid white;
+    position: absolute;
+   left: 1120px;
+   top:15px
+
+}
+
+.entrevista{
+    border: rgb(189, 23, 23)solid 0px;
+    width: 300px;
+    height: 40px;
+    font-size: 22px;
+    margin: 5px 10px;
+    text-align: center;
+    line-height: 40px;
+   
+
+    background: #294c71;
+}
+.entrevista h3{
+    margin: 0px;
+    color: white;
+}
+.nomes-entrevistas{
+    width: 280px;
+    border: 0px solid red;
+    margin: 5px 10px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    line-height: 32px;
+    height: 300px;
+    
+   
+}
+.nomes-entrevistas a{
+    color: black;
+    
+}
+.nomes-entrevistas ul{
+    background: none;
+    
+}
